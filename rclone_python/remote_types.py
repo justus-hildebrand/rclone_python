@@ -2,7 +2,7 @@ from enum import Enum
 
 
 class RemoteTypes(Enum):
-    """These are all the cloud systems support by rclone (generated with v1.73.5).
+    """These are all the cloud systems support by rclone (generated with v1.74.0).
     A more detailed overview can be found here: https://rclone.org/overview/
     """
 
@@ -34,6 +34,7 @@ class RemoteTypes(Enum):
     hdfs = "hdfs"
     hidrive = "hidrive"
     http = "http"
+    huaweidrive = "huaweidrive"
     iclouddrive = "iclouddrive"
     imagekit = "imagekit"
     internetarchive = "internetarchive"
